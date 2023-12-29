@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-up-page #logo-mobile {
+    width: 100%;
+    height: auto;   
+}
+
+.sign-up-page #logo-desktop {
+    display: none;
+}
+
+.sign-up-page .product {
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.sign-up-page .product h2 {
+    color: hsl(234, 29%, 20%);
+}
+
+.sign-up-page .info {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form #email {
+    display: grid;
+}
+
+form .labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+form #email label {
+    font-size: 12px;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+form .error {
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+
+form .error.active {
+    display: block;
+    font-weight: 800;
+}
+
+form #email input {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+form #email input.active {
+    background: hsl(5, 92%, 90%);
+    border-color: hsl(4, 100%, 67%);
+    color: hsl(4, 100%, 67%);
+}
+
+form #email input::placeholder {
+    color: hsl(231, 7%, 60%);
+}
+
+form #email input:hover {
+    cursor: pointer;
+}
+
+#form {
+    display: grid;
+    gap: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%; 
+    background: hsl(234, 29%, 20%);
+    color: white;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: hsl(4, 100%, 67%);
+}
+
+.success-page {
+    /* transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease; */
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.success-page .thanks {
+    display: grid;
+    gap: 20px;
+}
+
+.success-page h1 {
+    color: hsl(234, 29%, 20%);
+    font-size: 40px;
+}
+
+.success-page button {
+    background: hsl(234, 29%, 20%);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.success-page button:hover {
+    cursor: pointer;
+    background: hsl(4, 100%, 67%);
+}
+
+.success-page.activepage {
+    /* opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1); */
+
+    display: block;  
+}
+
+.sign-up-page.activepage {
+    display: none;
+}
+
+@media (min-width: 769px) {
+   .sign-up-page {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 140px;
+        font-size: 25px; 
+   } 
+
+   .sign-up-page #logo-mobile {
+        display: none;
+   }
+
+   .sign-up-page #logo-desktop {
+        display: block;
+   }
+    
+    .sign-up-page h2 {
+        font-size: 80px; 
+    }
+
+    #form #email, input, button{
+        font-size: 25px;
+    }
+
+    .sign-up-page .product {
+        margin: 65px;
+        gap: 15px;
+        width: 50%;
+    }
+
+    .sign-up-page .info {
+        gap: 30px;
+    }
+
+    .success-page {
+        height: 60vh;
+        margin: 150px 500px 0 500px;
+    }
+     
+    .success-page h1 {
+        color: hsl(234, 29%, 20%);
+        font-size: 40px;
+    }
+
+    .success-page .thanks p {
+        line-height: 30px;
+    }
+    
+    .success-page button {
+       margin-top: 30px;
+    }    
+}

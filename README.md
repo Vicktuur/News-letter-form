@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets/images/FireShot%20Capture%20057%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
-![](assets/images/FireShot%20Capture%20056%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20057%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20056%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
 
 ### Links
 
 - Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub)
-- Live Site URL: [Add live site URL here](https://news-letters.netlify.app)
+- Live Site URL: [site link](https://news-letters.netlify.app)
 
 ## My process
 

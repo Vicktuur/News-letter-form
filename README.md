@@ -28,8 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets/FireShot%20Capture%20057%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
-![](assets/FireShot%20Capture%20056%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20059%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20061%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20064%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
+![](assets/FireShot%20Capture%20066%20-%20Frontend%20Mentor%20-%20Newsletter%20sign-up%20form%20with%20success%20message%20-%20127.0.0.1.png)
 
 ### Links
 

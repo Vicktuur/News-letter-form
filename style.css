@@ -154,7 +154,7 @@ form button:hover {
 }
 
 /* Desktop view */
-@media (min-width: 1100px) {
+@media (min-width: 769px) {
     .container {
         background-color: hsl(235, 18%, 26%);
         padding: 100px;

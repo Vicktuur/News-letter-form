@@ -49,22 +49,22 @@ form .labels {
 form #email label {
     font-size: 12px;
     color: hsl(234, 29%, 20%);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: 700;
 }
 
 form .error {
     color: hsl(4, 100%, 67%);
-    display: none;
+    margin-bottom: 10px;
 }
 
 form .error.active {
-    display: block;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 form #email input {
-    padding: 10px 20px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
@@ -88,7 +88,7 @@ form #email input:hover {
 }
 
 form button {
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     border: none;
     width: 100%; 
@@ -98,7 +98,7 @@ form button {
 
 form button:hover {
     cursor: pointer;
-    background: hsl(4, 100%, 67%);
+    background: linear-gradient( to right,hsl(4, 96%, 49%),hsl(4, 100%, 67%));
 }
 
 .success-page {
@@ -137,7 +137,7 @@ form button:hover {
 
 .success-page button:hover {
     cursor: pointer;
-    background: hsl(4, 100%, 67%);
+    background: linear-gradient( to right,hsl(4, 96%, 49%),hsl(4, 100%, 67%));
 }
 
 .success-page.activepage {
@@ -153,16 +153,25 @@ form button:hover {
     display: none;
 }
 
-@media (min-width: 769px) {
-   .sign-up-page {
+/* Desktop view */
+@media (min-width: 1100px) {
+    .container {
+        background-color: hsl(235, 18%, 26%);
+        padding: 100px;
+    }
+
+    .container2 {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        gap: 140px;
-        font-size: 25px; 
-   } 
+        gap: 10px;
+        font-size: 20px; 
+        background-color: white;
+        margin: 50px;
+        border-radius: 35px;
+    }
 
    .sign-up-page #logo-mobile {
         display: none;
@@ -173,38 +182,60 @@ form button:hover {
    }
     
     .sign-up-page h2 {
-        font-size: 80px; 
+        font-size: 65px; 
     }
 
     #form #email, input, button{
-        font-size: 25px;
+        font-size: 16px;
     }
 
     .sign-up-page .product {
         margin: 65px;
-        gap: 15px;
-        width: 50%;
+        gap: 20px;
+        width: 45%;
+        height: auto;
     }
 
     .sign-up-page .info {
         gap: 30px;
     }
 
-    .success-page {
-        height: 60vh;
-        margin: 150px 500px 0 500px;
-    }
-     
-    .success-page h1 {
-        color: hsl(234, 29%, 20%);
-        font-size: 40px;
+    form #email input {
+        padding: 20px 20px;
+        
     }
 
-    .success-page .thanks p {
-        line-height: 30px;
+    form button {
+        padding: 20px 20px;
     }
-    
-    .success-page button {
-       margin-top: 30px;
-    }    
+     
+    .success-page {
+        height: 75vh; /*  reduces the height of the div */
+        margin: 0px;
+        border-radius: 30px;
+        margin-top: 0px;
+        background-color: white;
+        padding: 40px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .success-page .thanks {
+        gap: 20px;
+    }
+
+    .success-page h1 {
+        color: hsl(234, 29%, 20%);
+        font-size: 35px;
+    }
+
+    .success-page p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .success-page button { 
+        margin-top: 30px;
+    } 
 }
